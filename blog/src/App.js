@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <div className="black-nav">
-        <div> <img src={logo}/> React Blog :D </div>
+        <div> React Blog :D </div>
       </div>
       <div className="list">
         <h3>{title[0]}</h3>
