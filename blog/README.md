@@ -11,3 +11,6 @@
     - 사용법 
         import React, { useState } from 'react';
         let [title, titleUpdate] = useState(['블로그 제목1','블로그 제목2','블로그 제목 3','블로그 제목4']);
+            !) 참고
+             배열로 선언했을경우 <h3>{title[0]}</h3> 와 같이 사용가능하고, 단일 변수일 경우 {title}로 사용하면 된다.
+             단일 변수일 경우 title[0] 로 코드를 작성하면 index에 해당하는 글자가 출력된다.
