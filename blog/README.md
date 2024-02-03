@@ -16,7 +16,11 @@
              단일 변수일 경우 title[0] 로 코드를 작성하면 index에 해당하는 글자가 출력된다.
     - titleUpdate는 title useState를 변경할 때 사용한다.(setter라고 생각하면 될듯) 그냥 변경하게되면 재렌더링이 일어나지 않는다.
       state 변경함수로 값을 변경해줘야 재렌더링이 일어난다. 
-        titleUpdate('변경할 값');         
+        titleUpdate('변경할 값');  
+    - array를 변경할 땐 array를 새로 선언하고 deep copy 후 변경 함수를 사용해서 변경해줘야한다.
+        ex> var newArray = [...title];
+            newArray[0] = '블로그 제목을 바꿉시다.';
+            titleUpdate(newArray);       
 
 * onClick event
     - onClick = { 함수 } 형식으로 쓴다
