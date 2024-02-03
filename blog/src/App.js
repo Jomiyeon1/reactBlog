@@ -5,7 +5,7 @@ import './App.css';
 function App() {
 
   let [title, titleUpdate] = useState(['블로그 제목1','블로그 제목2','블로그 제목 3','블로그 제목4']);
-  let [likeUp, likeUpdate] = useState(0)
+  let [likeUp, likeUpdate] = useState(0);
   return (
     <div className="App">
       <div className="black-nav">

@@ -14,8 +14,8 @@
             !) 참고
              배열로 선언했을경우 <h3>{title[0]}</h3> 와 같이 사용가능하고, 단일 변수일 경우 {title}로 사용하면 된다.
              단일 변수일 경우 title[0] 로 코드를 작성하면 index에 해당하는 글자가 출력된다.
-    - titleUpdate는 title useState를 변경할 때 사용한다. 그냥 변경하게되면 재렌더링이 일어나지 않는다.
-      state 변경함수로 값을 변경해줘야 재렌더링이 
+    - titleUpdate는 title useState를 변경할 때 사용한다.(setter라고 생각하면 될듯) 그냥 변경하게되면 재렌더링이 일어나지 않는다.
+      state 변경함수로 값을 변경해줘야 재렌더링이 일어난다. 
         titleUpdate('변경할 값');         
 
 * onClick event
