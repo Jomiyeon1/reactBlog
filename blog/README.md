@@ -30,5 +30,7 @@
 
 * Component
     - html을 <Modal></Modal> 형식으로 치환해서 사용 가능.
-    - App.js return 밖에 html을 return하는 fuction을 만들고, 그 function명으로 태그를 만들면 해당 html이 출력된다.
-    
+    - App return 밖에 html을 return하는 fuction을 만들고, 그 function명으로 태그를 만들면 해당 html이 출력된다.
+    - return() 안에 있는 건 태그 하나로 묶어야 한다.
+        !) 참고
+            Component는 첫글자는 대문자로 쓰고, <Model/> 이렇게 사용한다.
