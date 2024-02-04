@@ -27,3 +27,8 @@
     - ()=>{} 이렇게 쓰면 함수로 인식된다.
     - 사용법
         <span onClick={ ()=>{} }>          
+
+* Component
+    - html을 <Modal></Modal> 형식으로 치환해서 사용 가능.
+    - App.js return 밖에 html을 return하는 fuction을 만들고, 그 function명으로 태그를 만들면 해당 html이 출력된다.
+    
