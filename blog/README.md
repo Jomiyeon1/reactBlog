@@ -34,3 +34,5 @@
     - return() 안에 있는 건 태그 하나로 묶어야 한다.
         !) 참고
             Component는 첫글자는 대문자로 쓰고, <Model/> 이렇게 사용한다.
+    - 반복적으로 나오는 HTML, 자주 변경되는 HTML을 Component로 만들면 좋다.
+    - 단점 : state를 써야된다면 복잡해짐. (상위 component에서 만든 state를 쓰려면 props 문법을 이용해야한다)
